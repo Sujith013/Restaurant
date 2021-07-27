@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="restaurant.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Restaurant</title>
 </head>
 <body>
 
     <nav class="topbar">
-        <a href="#home">Home</a>
-        <a href="#About">About</a>
-        <a href="#cAc">ChefsAndCuisines</a>
-        <a href="#SpcF">Special Foods</a>
-        <a href="#Contact">Contact</a>
+        <button style="background-color:rgb(0,0,0,0);border: none;"><i class="material-icons" onclick="Menu()" style="color: white;font-size: 30px;">menu</i></button>
+        <a href="#home" style="margin-left:40px;display: inline;" id="tbh">Home</a>
+        <a href="#About" id="tba">About</a>
+        <a href="#cAc" id="tbcac">ChefsAndCuisines</a>
+        <a href="#SpcF" id="tbspc">Special Foods</a>
+        <a href="#Contact" id="tbc">Contact</a>
     </nav>
 
     <br><br><br>
@@ -201,3 +203,32 @@
     </div>
 </body>
 </html>
+
+<script>
+    function Menu()
+    {
+      var x=document.getElementById('tbh');
+      var y=document.getElementById('tbcac');
+      var z=document.getElementById('tbspc');
+      var p=document.getElementById('tbc');
+      var q=document.getElementById('tba');
+ 
+     if(x.style.display!="none")
+      {
+          console.log('if');
+        x.style.display="none";
+        y.style.display="none";
+        z.style.display="none";
+        p.style.display="none";
+        q.style.display="none";
+    }
+      else
+      {
+        x.style.display="inline";
+        y.style.display="inline";
+        z.style.display="inline";
+        p.style.display="inline";
+        q.style.display="inline";
+      }
+    }
+</script>
