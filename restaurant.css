@@ -1,0 +1,114 @@
+body{
+    background-color: black;
+}
+
+.topbar{
+
+
+    position: fixed;
+    margin-left: 70px;
+    line-height: 50px;
+    height: 50px;
+}
+
+.topbar a{
+
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    transition: color 2s;
+    transition: background-color 2s;
+}
+
+.topbar a:hover{
+
+    border-color: black;
+    color: black;
+    background-color: White;
+    transition: all 2s;
+}
+
+.Main {
+    background-image: url('main.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Main h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    color: rgb(240, 153, 54);
+    margin-left: 250px;
+}
+
+.AboutContent h1{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+
+.AboutContent p{
+
+    color:white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+}
+
+.Contact pre{
+    font-size: 50px;
+    color: black;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    line-height: 50px;
+}
+
+.instagram{
+    background-color:rgb(248, 155, 170);
+    width: 50%;
+    height: 400px;
+}
+.whatsapp{
+    background-color: rgb(79, 243, 79);
+    width: 50%;
+    height: 400px;
+}
+
+.instagram a{
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.whatsapp a{
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.Facebook{
+    background-color: rgb(9, 58, 150);
+    width: 50%;
+    height: 400px;
+}
+.Twitter{
+    background-color: rgb(79, 183, 243);
+    width: 50%;
+    height: 400px;    
+}
+.Facebook a{
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.Twitter a{
+    margin-top: 100px;
+    margin-left: 300px;
+}
