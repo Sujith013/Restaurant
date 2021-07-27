@@ -159,3 +159,9 @@ body{
     border-radius: 5px 5px 0 0;
     height: 70%;
   }
+
+  .CAC h1{
+      color: white;
+      font-family: 'Arial';
+      font-size: 80px;
+  }
