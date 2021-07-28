@@ -48,11 +48,20 @@ body{
     text-align: center;
 }
 
+.about{
+    display: flex;
+}
+
+.about img{
+    width:500px;
+    height:600px;
+}
+
 .AboutContent h1{
     color:white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 80px;
-    margin-left: 350px;
+    text-align: center;
     margin-top: 10px;
 }
 
@@ -61,16 +70,17 @@ body{
     color:white;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 100px;
+    text-align: center;
 }
 
-.Contact pre{
-    font-size: 50px;
+.Contact h1{
+    font-size: 80px;
     color: white;
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
     height: 50px;
     line-height: 50px;
+    text-align: center;
 }
 
 .instagram{
@@ -112,10 +122,16 @@ body{
 .instagram a{
     margin-top: 100px;
     margin-left: 265px;
+    text-decoration: none;
+    color: rgb(248, 31, 67);
+    font-size: 100px;
 }
 .whatsapp a{
     margin-top: 100px;
     margin-left: 265px;
+    text-decoration: none;
+    color: white;
+    font-size: 100px;
 }
 .Facebook{
     margin-left: 90px;
@@ -134,13 +150,52 @@ body{
 .Facebook a{
     margin-top: 100px;
     margin-left: 265px;
+    text-decoration: none;
+    color: white;
+    font-size: 100px;
 }
 .Twitter a{
     margin-top: 100px;
     margin-left: 265px;
+    text-decoration: none;
+    color: white;
+    font-size: 100px;
+}
+
+.instagram p{
+    background-color: rgb(0,0,0,0);
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(248, 31, 67);
+    font-size: 40px;
+    text-align: center;
+}
+
+.whatsapp p{
+    background-color: rgb(0,0,0,0);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.Facebook p{
+    background-color: rgb(0,0,0,0);
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.Twitter p{
+    background-color: rgb(0,0,0,0);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
 }
 
 .card {
+    margin-left: 100px;
     width: 40%;
     background-color: white;
     color: black;
@@ -154,8 +209,13 @@ body{
     padding: 2px 16px;
   }
  .card img {
+     width: 100%;
     border-radius: 5px 5px 0 0;
     height: 70%;
+  }
+
+  .cAc{
+      display: flex;
   }
 
   .CAC h1{
@@ -164,177 +224,211 @@ body{
       font-size: 80px;
   }
 
+  .material-icons{
+    color: rgb(110, 109, 109);
+    font-size: 30px;
+  }
 
-  @media only screen and (max-width: 800px) {
+  .button{
+    background-color:rgb(0,0,0,0);
+    border: none;
+  }
+
+  #tbh{
+    margin-left:40px;
+    display: inline;
+  }
+
+  .SpcF h1{
+    color: white;
+    font-family: 'Arial';
+    font-size: 80px;
+    text-align: center;
+  } 
+
+  @media only screen and (max-width: 700px){
+
     body{
-        background-color: black;
- }
- 
- .topbar{
-  display: none;
- }
- 
- .Main {
-     background-image: url('Main.jfif');
-     background-repeat: no-repeat;
-     width:width;
- }
- 
- .Main h1{
-     width:width;
-     font-family: Arial, Helvetica, sans-serif;
-     font-size: 50px;
-     color: rgb(240, 153, 54);
-     text-align: center;
- }
+       background-color: black;
+}
+
+.topbar{
+    display: none;
+}
+
+.Main {
+    background-image: url('Main.jfif');
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+}
+
+.Main h1{
+    font-size:xxx-large;
+    font-family: Arial;
+    color: rgb(240, 153, 54);
+    text-align: center;
+}
 
 .about{
-    width:width;
+    display: flex;
 }
 
- .about img{
-    display: none;
- }
- 
- .AboutContent h1{
+.about img{
+ display: none;
+}
 
-    margin-left: 0;
-    width: width;
-     color:white;
-     font-family: Arial, Helvetica, sans-serif;
-     font-size: 40px;
-     margin-top: 10px;
-     text-align: center;
- }
- 
- .AboutContent p{
- 
+.AboutContent h1{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.AboutContent p{
+
+    color:white;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.card {
+
     margin-left: 0px;
-    width: width;
-     color:white;
-     font-size: 20px;
-     font-family: Arial, Helvetica, sans-serif;
-     text-align: center;
- }
- 
- .Contact pre{
-     font-size: 50px;
-     color: white;
-     background-color: black;
-     font-family: Arial, Helvetica, sans-serif;
-     height: 50px;
-     line-height: 50px;
- }
- 
- .instagram{
-     margin-left: 90px;
-     border-radius: 10px;
-     background-color:rgb(248, 155, 170);
-     width: 40%;
-     height: 400px;
- }
- 
- .instagram:hover{
-     transition: all 1s;
-     box-shadow: 0 12px 12px 0 rgba(248, 155, 170, 0.548);
- }
- 
- .Facebook:hover{
-     transition: all 1s;
-     box-shadow: 0 12px 12px 0 rgba(9, 58, 150, 0.548);
- }
- 
- .Twitter:hover{
-     transition: all 1s;
-     box-shadow: 0 12px 12px 0 rgba(79, 183, 243, 0.548);
- }
- 
- .whatsapp:hover{
-     transition: all 1s;
-     box-shadow: 0 12px 12px 0 rgba(79, 243, 79, 0.548);
- }
- 
- .whatsapp{
-     margin-left: 100px;
-     border-radius: 10px;
-     background-color: rgb(79, 243, 79);
-     width: 40%;
-     height: 400px;
- }
- 
- .instagram a{
-     margin-top: 100px;
-     margin-left: 265px;
- }
- .whatsapp a{
-     margin-top: 100px;
-     margin-left: 265px;
- }
- .Facebook{
-     margin-left: 90px;
-     border-radius: 10px;
-     background-color: rgb(9, 58, 150);
-     width: 40%;
-     height: 400px;
- }
- .Twitter{
-     margin-left: 100px;
-     border-radius: 10px;
-     background-color: rgb(79, 183, 243);
-     width: 40%;
-     height: 400px;    
- }
- .Facebook a{
-     margin-top: 100px;
-     margin-left: 265px;
- }
- .Twitter a{
-     margin-top: 100px;
-     margin-left: 265px;
- }
- 
-.cAc1{
-    width: width;
-    display:inline;
-}
-.cAc2{
-    width: width;
-    display: inline;
-}
-.cAc3{
-    width: width;
-    display: inline;
-}
-.cAc4{
-    width: width;
-    display: inline;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
 }
 
- .card {
-     margin-left: 0px;
-     background-color: white;
-     color: black;
-     transition: 0.3s;
-     border-radius: 5px; /* 5px rounded corners */
- }
- .card:hover {
-     box-shadow: 0 6px 12px 0 rgba(250, 250, 250, 0.548);
-   }
- .container {
-     padding: 2px 16px;
-   }
-  .card img {
-     border-radius: 5px 5px 0 0;
-     height: 70%;
-   }
- 
-   .CAC h1{
-       color: white;
-       font-family: 'Arial';
-       font-size: 40px;
-       width: width;
-       margin-left: 0px;
-       text-align: center;
-   }
- 
+.container {
+    padding: 2px 16px;
   }
+ .card img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    height: 70%;
+  }
+
+  .cAc{
+      display: inline;
+  }
+
+  .CAC h1{
+      text-align: center;
+      color: white;
+      font-family: 'Arial';
+      font-size: xx-large;
+  }
+
+  .SpcF h1{
+    color: white;
+    font-family: 'Arial';
+    font-size: xx-large;
+    text-align: center;
+    padding-bottom: 10px;
+  } 
+
+  .Contact h1{
+    font-size: xx-large;
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.instagram{
+    margin-left: 0px;
+    border-radius: 10px;
+    background-color:rgb(248, 155, 170);
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.whatsapp{
+    margin-left: 0px;
+    border-radius: 10px;
+    background-color: rgb(79, 243, 79);
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.instagram a{
+
+    margin-top: 35%;
+    margin-left: 35%;
+    text-decoration: none;
+    color: rgb(248, 31, 67);
+    font-size: xxxx-large;
+}
+.whatsapp a{
+    margin-top: 35%;
+    margin-left: 35%;
+    text-decoration: none;
+    color: white;
+    font-size: xxxx-large;
+}
+.Facebook{
+    margin-left: 0px;
+    border-radius: 10px;
+    background-color: rgb(9, 58, 150);
+    width: 100%;
+    margin-bottom: 10px;
+}
+.Twitter{
+    margin-left: 0px;
+    border-radius: 10px;
+    background-color: rgb(79, 183, 243);
+    width: 100%;
+   margin-bottom: 10px;
+}
+.Facebook a{
+    margin-top: 35%;
+    margin-left: 35%;
+    text-decoration: none;
+    color: white;
+    font-size: xxxx-large;
+}
+.Twitter a{
+    margin-top: 35%;
+    margin-left: 35%;
+    text-decoration: none;
+    color: white;
+    font-size:xxxx-large;
+}
+
+.instagram p{
+    background-color: rgb(0,0,0,0);
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(248, 31, 67);
+    font-size: xx-large;
+    text-align: center;
+}
+
+.whatsapp p{
+    background-color: rgb(0,0,0,0);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size:xx-large;
+    text-align: center;
+}
+
+.Facebook p{
+    background-color: rgb(0,0,0,0);
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.Twitter p{
+    background-color: rgb(0,0,0,0);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
+} 
